@@ -1,0 +1,35 @@
+BOOKING DURATION:
+
+Open Power Query. Open Power BI Desktop. Click Home → Transform Data .Power Query Editor opens
+
+Select Fact_Bookings table, Select Fact_Bookings. Go to Add Column → Custom Column
+
+Duration.Days([Check-out Date] - [Check-in Date])
+
+Click OK. Select Booking Duration. Data Type → Whole Number
+
+Booking Duration column created
+
+ROOM CATEGORY:
+ 
+Select Fact_Bookings.Go to Home → Merge Queries. Choose second table: Dim_Room
+Select Room_ID in both tables. Join type: Left Outer . Click OK
+Click expand (↔) icon. Select Room Price. Click OK.
+ 
+if [Room Price] < 2000 then "Budget"
+else if [Room Price] <= 5000 then "Standard"
+else "Premium"
+
+click OK and data type is Text. Room Category created
+
+Stay TYPE:
+
+Select Fact_Bookings . Go to Add Column → Custom Column . Column name: Stay Type
+
+if [Booking Duration] <= 2 then "Short Stay"
+else if [Booking Duration] <= 5 then "Medium Stay"
+else "Long Stay"
+
+Click OK . Data Type → Text . Stay Type created
+
+
