@@ -37,7 +37,7 @@ OTA Revenue = CALCULATE ( [Total Revenue], Bookings[Booking Source] = "OTA")
 
 ## 🎛️ Interactive Slicers
 
-### Implemented slicers for:
+ ### Implemented slicers for:
 
 	Room Type
 	Hotel Branch / Location
@@ -45,12 +45,12 @@ OTA Revenue = CALCULATE ( [Total Revenue], Bookings[Booking Source] = "OTA")
 	Date Range
 All slicers interact dynamically with all visuals.
 
-### 👥 Guest Classification Metrics
+ ### 👥 Guest Classification Metrics
 
 Guest Measures ::
-Total Bookings per Guest = COUNT ( Bookings[Booking_ID] )
-Total Spend per Guest = SUM ( Bookings[Revenue] )
-Guest Segmentation Column :  Guest Segment = SWITCH ( TRUE(), [Total Spend per Guest] >= 50000, "High Spender", [Total Bookings per Guest] >= 3, "Loyal Guest", [Total Bookings per Guest] = 1, "First-time Guest", "Regular Guest" )
+1.Total Bookings per Guest = COUNT ( Bookings[Booking_ID] );
+2.Total Spend per Guest = SUM ( Bookings[Revenue] );
+3.Guest Segmentation Column :  Guest Segment = SWITCH ( TRUE(), [Total Spend per Guest] >= 50000, "High Spender", [Total Bookings per Guest] >= 3, "Loyal Guest", [Total Bookings per Guest] = 1, "First-time Guest", "Regular Guest" )
 
 ## ✅ Final Outcome:
 
