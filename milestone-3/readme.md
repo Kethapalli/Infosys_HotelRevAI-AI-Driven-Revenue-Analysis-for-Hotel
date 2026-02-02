@@ -44,3 +44,10 @@ Average Booking Lead Time (Days);
 3.Reduces revenue leakage from no-shows
 
 4.Enables proactive staffing and pricing decisions
+
+
+
+
+
+<img width="1424" height="755" alt="Screenshot 2026-02-02 205229" src="https://github.com/user-attachments/assets/070f0e32-f9ad-4947-9886-658ee5ede8ce" />
+
