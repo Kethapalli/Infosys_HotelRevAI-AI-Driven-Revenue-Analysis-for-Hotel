@@ -1,4 +1,4 @@
-# Hotel Revenue Strategy & Pricing Optimization Dashboard
+# 🏨 Hotel Revenue Strategy & Pricing Optimization Dashboard
 
 ## Project Overview
 This project analyzes historical revenue, occupancy trends, pricing effectiveness, and upsell opportunities to build a data-driven hotel revenue strategy dashboard.
