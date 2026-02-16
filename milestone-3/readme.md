@@ -1,4 +1,4 @@
-# 🏨 Hotel Demand Forecasting & Cancellation Analysis (Power BI)
+# 🏨 Hotel Demand Forecasting & Cancellation Analysis 
 
 ## 📌 Project Overview
 This project presents an interactive Power BI dashboard designed to analyze hotel booking performance with a focus on demand forecasting, cancellations, no-shows, and booking behavior.
